@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>DeepSeek</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header><span class="logo">深</span><span>DeepSeek</span><span id="status" class="status">Офлайн</span></header>
+    <section id="messages" class="messages" aria-live="polite">
+      <div class="bubble assistant">Привет! Напиши вопрос. Телефон должен быть подключён к той же Wi-Fi сети.</div>
+    </section>
+    <section class="controls">
+      <input id="phone" type="text" inputmode="url" placeholder="IP телефона, например 192.168.0.5">
+      <input id="message" type="text" placeholder="Сообщение..." autocomplete="off">
+      <button id="send">Отправить</button>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
