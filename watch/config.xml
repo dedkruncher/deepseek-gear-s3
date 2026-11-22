@@ -6,7 +6,6 @@
         viewmodes="maximized">
   <name>DeepSeek</name>
   <content src="index.html"/>
-  <icon src="icon.png"/>
   <tizen:profile name="wearable"/>
   <tizen:setting screen-orientation="portrait"
                  context-menu="disable"
