@@ -1,0 +1,14 @@
+* { box-sizing: border-box; }
+html, body { margin: 0; width: 100%; height: 100%; background: #10141d; color: #f4f6fb; font-family: Arial, sans-serif; }
+.app { height: 100%; display: flex; flex-direction: column; padding: 12px; gap: 9px; }
+header { display: flex; align-items: center; gap: 7px; font-size: 15px; font-weight: bold; }
+.logo { display: inline-grid; place-items: center; width: 25px; height: 25px; border-radius: 50%; background: #4b83e6; }
+.status { margin-left: auto; color: #9aa7bc; font-size: 10px; font-weight: normal; }
+.messages { flex: 1; min-height: 0; overflow-y: auto; display: flex; flex-direction: column; gap: 8px; padding: 4px 0; }
+.bubble { max-width: 95%; padding: 9px 10px; border-radius: 12px; font-size: 13px; line-height: 1.35; overflow-wrap: anywhere; white-space: pre-wrap; }
+.assistant { align-self: flex-start; background: #252e3d; }
+.user { align-self: flex-end; background: #2857a5; }
+.controls { display: flex; flex-direction: column; gap: 6px; }
+input { width: 100%; min-height: 34px; border: 1px solid #39465b; border-radius: 9px; padding: 7px 9px; color: white; background: #1b2330; font-size: 12px; }
+button { min-height: 36px; border: 0; border-radius: 10px; background: #4b83e6; color: white; font-size: 13px; font-weight: bold; }
+button:disabled { opacity: .5; }
